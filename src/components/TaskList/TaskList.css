@@ -1,0 +1,33 @@
+.task__card {
+    margin: 10px;
+    border: 1px solid green;
+    width: 15%;
+    text-align: center;
+}
+
+.task__card:hover {
+    box-shadow: 0 0 10px #76a386;
+}
+
+.task__edit-button {
+    margin: 20px 0;
+    cursor: pointer;
+    width: 40%;
+}
+
+.task__input {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.task__select {
+    width: 70%;
+}
+
+.task__label {
+    margin-right: 5px;
+}
+
+.task__select {
+    cursor: pointer;
+}

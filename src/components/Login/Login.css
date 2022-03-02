@@ -1,0 +1,33 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 0;
+    width: 100vw;
+}
+
+.login__form {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(10%, 15%));
+    column-gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.login__button {
+    cursor: pointer;
+}
+
+.login-form_error_visible {
+    display: inline;
+    margin-top: 2px;
+    font-size: 12px;
+    color: red;
+    justify-self: center;
+}
+
+.login__button-out {
+    width: 20%;
+    margin-top: 25px;
+    cursor: pointer;
+}
